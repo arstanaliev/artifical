@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: var(--020-a-18, #020A18);
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-links a{
+    margin: 0 10px;
+    color: var(--ffffff, #FFF);
+font-size: 16px;
+font-weight: 600;
+}
+.header button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: var(--3-a-68-b-8, #3A68B8);
+    color: var(--ffffff, #FFF);
+font-size: 16px;
+font-weight: 400;
+}
+
+
+
+
+
+#hero{
+    margin: top 70px;               
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left h4{
+    color: var(--3-a-68-b-8, #3A68B8);
+font-size: 18px;
+font-weight: 550;
+line-height: 28.8px;
+text-transform: uppercase;
+}
+.hero-left h1{
+    color: var(--ffffff, #FFF);
+font-size: 55px;
+font-weight: 800;
+line-height: 65px; /*  */
+margin: 20px 0;
+}
+.hero-left p{
+    color: var(--ffffff, #a3a0a0);
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px; /*  */
+}
+.hero-buttons{
+    margin-top: 20px;
+}
+.hero-buttons button{
+    padding: 12px 25px;
+    border-radius: 5px;
+background: var(--3-a-68-b-8, #3A68B8);
+color: var(--ffffff, #FFF);
+font-size: 15px;
+font-weight: 550;
+border: none;
+margin: 0 10px;
+}
+
+
+
+
+#logos{
+    margin-top: 80px;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+.apply{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+.apply-title h1{
+    color: var(--ffffff, #FFF);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px ; /**/
+}
+.apply-title p{
+    color: var(--ffffff, #736e6e);
+font-size: 16px;
+font-weight: 500;
+line-height: 25.6px:;  /* */
+margin: 30px 0;
+
+}
+.apply-title button{
+    border-radius: 5px;
+background: var(--3-a-68-b-8, #3A68B8);
+color: var(--ffffff, #FFF);
+font-size: 16px;
+font-weight: 600;
+padding: 10px 25px;
+border: none;
+}
+#apply{
+    margin-top: 170px;
+}
+
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 0;
+}
+
+.block{
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(40, 40, 40, 0.2) -41.9%, rgba(255, 255, 255, 0.127) 115.68%);
+    backdrop-filter: blur(100px);
+    padding: 55px 35px;
+    text-align: center;
+    height: 350px;
+
+}
+.block h1 {
+    padding: 55px 0 35px 0;
+    position: relative;
+    color: var(--ffffff, #FFF);
+text-align: center;
+font-size: 25px;
+font-weight: 700;
+line-height: 31.25px; /* */
+}
+.block p{
+    color: var(--ffffff, #a79e9e);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px; /*  */
+}
+.client h1 {
+    color: var(--ffffff, #FFF);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px; /*  */
+}
+.client p{
+    color: var(--ffffff, #cfc7c7);
+font-size: 16px;
+font-weight: 600;
+line-height:  25.6px /* */
+}
+.client p {
+    padding: 12px;
+}
+.clients{
+ display: flex;
+}
+
+
+
+
+.Artificial p{
+    color: var(--ffffff, #9d9c9c);
+    font-size: 14px;
+    font-weight: 450;
+}
+.Artificial  {
+    display: flex;
+    flex-direction: column;
+}
+.artificals{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Artificial a {
+    color: var(--ffffff, #FFF);
+font-size: 14px;
+font-weight: 450;
+padding-top: 15px;
+display: flex;
+align-items: center;
+}
+.Artificial h4{
+    color: var(--ffffff, #FFF);
+font-size: 16px;
+font-weight: 500;
+}
+.artificals{
+    display: flex;
+    align-items: start;
+    padding: 40px;
+}
+    
+
+.Artificial p{
+    padding: 8px 0;
+}
+
+.Artificial h4{
+    padding-bottom: 15px;
+}
+
+.Artificial h2{
+    color: var(--3-a-68-b-8, #3A68B8);
+font-family: Open Sans;
+font-size: 15.963px;
+font-weight: 600;
+padding-top: 5px;
+}
+.Artificial-icons {
+    display: flex;
+    padding: 0 10px;
+}
+.Artificial-icons a{
+    padding-right: 10px;
+}
